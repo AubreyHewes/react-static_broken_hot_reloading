@@ -1,6 +1,15 @@
-# react-static_broken_hot_reloading ?
+# react-static_broken_hot_reloading
 
-## Problem
+This example does not `hot-reload` as expected
+
+# FIXED
+
+Add `react-hot-loader/babel` to babel plugins via `.babelrc`
+
+See below for the original problem
+
+# Problem
+
 This example does not `hot-reload` as expected
 
 # What am i doing wrong?
